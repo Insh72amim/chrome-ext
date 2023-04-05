@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Open AI Models",
+    "description": "Add the reading time to Chrome Extension documentation articles",
+    "version": "1.0",
+    "icons": {
+        "16": "logo.png",
+        "32": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "logo.png",
+            "32": "logo.png",
+            "48": "logo.png",
+            "128": "logo.png"
+        }
+    }
+}
